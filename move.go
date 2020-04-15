@@ -11,6 +11,12 @@ import (
 	"strings"
 )
 
+/*
+Reference:
+https://ninedegreesbelow.com/photography/exiftool-commands.html
+https://www.linux.com/training-tutorials/how-sort-and-remove-duplicate-photos-linux/
+*/
+
 //movePic moves a file between directories
 func movePic(src, dest string) {
 	fmt.Printf("source: %s, destination: %s\n", src, dest)
